@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+  #todo {
+    height: 500px;
+  }
+  header {
+    background-color: #D4B499;
+    text-align: center;
+  }
+  header a {
+    animation-duration: 1.5s;
+    animation-name: colores;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  header a:hover {
+    color: #889EAF;
+    text-decoration: none;
+  }
+  section {
+    background-color: #889EAF;
+    font-size: 1.2rem;
+  }
+  #lateral {
+    background-color: #506D84;
+    text-align: center;
+    padding: 50px 100px;
+  }
+  footer {
+    color: whitesmoke;
+    background-color: #506D84;
+    padding: 20px 0;
+  }
+  .contenedor {
+    width: 99%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+  }
+  #resultado {
+    transition: all 0.4 ease-in-out;
+  }
+  .res {
+    color: whitesmoke;
+    width: 99%;
+    line-height: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
